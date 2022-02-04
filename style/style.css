@@ -21,9 +21,10 @@ body {
     display: flex;
 }
 
-.flex-container {
+.menu-container {
     height: 88vh;
 }
+
 /* Left side navbar menu */
 main nav.side-menu {
     width: 15vw;
@@ -31,8 +32,32 @@ main nav.side-menu {
     background-color: black;
 }
 
-main .menu-content {
-    margin: 0 auto;
+/* Main section and central navbar */
+main .side-menu-content {
+    width: 80%;
+    stretch: 0;
+    margin: 15px;
+}
+
+main .nav-icon {
+    color: #65686d;
+    font-size: .7rem;
+    margin-bottom: 10px;
+}
+
+main .nav-icon .icon {
+    width: 20px;
+    margin-right: 7px;
+    color: #65686d;
+}
+
+main .nav-icon span {
+    align-self: center;
+}
+
+main .side-menu-content .spotify-logo {
+    width: 110px;
+    margin-bottom: 1rem;
 }
 
 main div.main-container {
@@ -40,7 +65,63 @@ main div.main-container {
     background-color: #141922;
 }
 
+/* Call to action button */
+div.call-to-action {
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.call-to-action a.upgrade {
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: .7rem;
+}
+
+div.main-container .nav-container {
+    justify-content: center;
+}
+
+.central-nav {
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 40vw;
+}
+
+div.central-nav a{
+    text-decoration: none;
+    color: #65686d;
+    font-size: .7rem;
+}
+
+main div.row-container {
+    width: 82vw;
+    margin: 0 auto 1rem;
+}
+
+main div.row-container h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+main div.row-container .row {
+    height: 25vh;
+    background-color: yellowgreen;
+}
+
 footer {
     height: 12vh;
     background-color: #282828;
+}
+
+
+@media screen and (max-width: 992px) {
+    
 }
