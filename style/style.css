@@ -7,15 +7,33 @@
     padding: 0;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: 'Circular Std', sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-container {
+    height: 88vh;
+}
 /* Left side navbar menu */
-header nav.side-menu {
+main nav.side-menu {
     width: 15vw;
     height: 88vh;
     background-color: black;
+}
+
+main div.main-container {
+    width: 85vw;
+    background-color: #141922;
 }
 
 footer {
