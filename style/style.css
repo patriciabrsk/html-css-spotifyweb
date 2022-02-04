@@ -39,7 +39,7 @@ main .side-menu-content {
     margin: 15px;
 }
 
-main .nav-icon {
+main div.nav-icon {
     color: #65686d;
     font-size: .7rem;
     margin-bottom: 10px;
@@ -53,6 +53,11 @@ main .nav-icon .icon {
 
 main .nav-icon span {
     align-self: center;
+}
+
+main .nav-icon span a {
+    text-decoration: none;
+    color: #65686d;
 }
 
 main .side-menu-content .spotify-logo {
