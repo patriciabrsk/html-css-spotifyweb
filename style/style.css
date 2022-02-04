@@ -31,6 +31,10 @@ main nav.side-menu {
     background-color: black;
 }
 
+main .menu-content {
+    margin: 0 auto;
+}
+
 main div.main-container {
     width: 85vw;
     background-color: #141922;
