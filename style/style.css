@@ -21,9 +21,9 @@ body {
     display: flex;
 }
 
-.menu-container {
+/* .menu-container {
     height: 88vh;
-}
+} */
 
 /* Left side navbar menu */
 main nav.side-menu {
@@ -37,6 +37,8 @@ main .side-menu-content {
     width: 80%;
     stretch: 0;
     margin: 15px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main div.nav-icon {
@@ -126,6 +128,22 @@ footer {
     background-color: #282828;
 }
 
+footer.music-player {
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 98%;
+}
+
+.footer-content {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content img {
+    width: 3rem;
+}
 
 @media screen and (max-width: 992px) {
     
