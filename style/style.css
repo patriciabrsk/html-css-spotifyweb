@@ -29,10 +29,6 @@ main .menu-container {
     height: 88vh;
 }
 
-main .main-container {
-
-}
-
 /* Left side navbar menu */
 main nav.side-menu {
     width: 15vw;
@@ -219,7 +215,8 @@ footer .progress-bar-container {
 
 footer .progress{
     height: 4px;
-    width: 30%;
+    width: 22%;
+    position: relative;
     border-radius: 10px;
     background-color: #c1c1c1;
 }
@@ -227,9 +224,23 @@ footer .progress{
 footer .progress-bar {
     height: 100%;
     width: 100%;
-    position: relative;
     border-radius: 10px;
     background-color: #5a5a5a;
+}
+
+.progress-bar:hover .progress {
+    background-color: #1cd05d;
+}
+
+.progress-bar:hover .progress::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    padding: 7px;
+    size: 1em;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(50%, calc(2px - 50%));
 }
 
 footer .features-content {
