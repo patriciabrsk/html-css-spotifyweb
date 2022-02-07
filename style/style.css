@@ -17,13 +17,21 @@ body {
     font-family: 'Circular Std', sans-serif;
 }
 
+main {
+    flex-direction: row;
+}
+
 .flex {
     display: flex;
 }
 
-/* .menu-container {
+main .menu-container {
     height: 88vh;
-} */
+}
+
+main .main-container {
+
+}
 
 /* Left side navbar menu */
 main nav.side-menu {
@@ -127,11 +135,11 @@ main div.row-container .row {
 
 footer {
     height: 12vh;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     background-color: #282828;
 }
 
-footer.music-player {
+footer .music-player {
     justify-content: space-between;
     margin: auto;
     align-items: center;
