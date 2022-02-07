@@ -148,6 +148,12 @@ footer.music-player {
 footer div.song-description {
     margin: 0 3rem 0 .7em ;
 }
+
+footer .artist {
+    color: #5a5a5a;
+    font-size: .7rem;
+}
+
 footer .title:hover,
 footer .artist:hover {
     text-decoration: underline;
@@ -157,7 +163,11 @@ footer div.song-description h5 {
     color: white;
 }
 
-div.song-content > .far, .fas {
+div.icons {
+    color: #5a5a5a;
+}
+
+div.icons .fa-folder {
     margin-left: .7em;
 }
 
@@ -210,6 +220,25 @@ footer .progress-bar {
     position: relative;
     border-radius: 10px;
     background-color: #5a5a5a;
+}
+
+footer .features-content {
+    align-items: center;
+    gap: 1em;
+}
+
+footer .features-content i {
+    color: white;
+}
+
+footer .volume-bar {
+    align-items: center;
+    height: 4px;
+    gap: .7rem;
+}
+
+.volume-bar .progress-bar{
+    width: 6em;
 }
 
 @media screen and (max-width: 992px) {
