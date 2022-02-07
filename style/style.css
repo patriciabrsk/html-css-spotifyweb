@@ -25,6 +25,7 @@ main {
     display: flex;
 }
 
+/* Desktop-first */
 main .menu-container {
     height: 88vh;
 }
@@ -36,7 +37,6 @@ main nav.side-menu {
     background-color: black;
 }
 
-/* Main section and central navbar */
 main .side-menu-content {
     width: 80%;
     /* stretch: 0; */
@@ -120,12 +120,14 @@ main .bottom-menu #username a {
     color: white;
 }
 
+/* Main section and central navbar */
 main div.main-container {
     width: 85vw;
     overflow-x: hidden;
     overflow-y: auto;
     background-color: #141922;
 }
+
 
 /* Call to action button */
 div.call-to-action {
@@ -161,6 +163,12 @@ div.central-nav a{
     text-decoration: none;
     color: #65686d;
     font-size: .7rem;
+}
+
+div#main-container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
 }
 
 main div.row-container {
@@ -311,6 +319,17 @@ footer .volume-bar {
     width: 6em;
 }
 
+/* lg screen */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* md screen */
 @media screen and (max-width: 992px) {
+    
+}
+
+/* sm screen */
+@media screen and (max-width: 768px) {
     
 }
