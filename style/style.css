@@ -17,9 +17,6 @@ body {
     font-family: 'Circular Std', sans-serif;
 }
 
-main {
-    height: 88vh;
-}
 .flex {
     display: flex;
 }
@@ -31,7 +28,7 @@ main {
 /* Left side navbar menu */
 main nav.side-menu {
     width: 15vw;
-    /* height: 88vh; */
+    height: 88vh;
     background-color: black;
 }
 
