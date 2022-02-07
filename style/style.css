@@ -17,6 +17,9 @@ body {
     font-family: 'Circular Std', sans-serif;
 }
 
+main {
+    height: 88vh;
+}
 .flex {
     display: flex;
 }
@@ -28,7 +31,7 @@ body {
 /* Left side navbar menu */
 main nav.side-menu {
     width: 15vw;
-    height: 88vh;
+    /* height: 88vh; */
     background-color: black;
 }
 
@@ -69,6 +72,8 @@ main .side-menu-content .spotify-logo {
 
 main div.main-container {
     width: 85vw;
+    overflow-x: hidden;
+    overflow-y: auto;
     background-color: #141922;
 }
 
