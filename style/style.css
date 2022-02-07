@@ -35,7 +35,7 @@ main nav.side-menu {
 /* Main section and central navbar */
 main .side-menu-content {
     width: 80%;
-    stretch: 0;
+    /* stretch: 0; */
     margin: 15px;
     flex-direction: column;
     justify-content: space-between;
@@ -76,7 +76,7 @@ main div.main-container {
 div.call-to-action {
     justify-content: flex-end;
     align-items: center;
-    height: 10vh;
+    height: 70px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -125,6 +125,7 @@ main div.row-container .row {
 
 footer {
     height: 12vh;
+    flex-shrink: 0;
     background-color: #282828;
 }
 
@@ -135,14 +136,80 @@ footer.music-player {
     width: 98%;
 }
 
-.footer-content {
-
+.song-content {
     justify-content: center;
     align-items: center;
 }
 
-.footer-content img {
+.song-content img {
     width: 3rem;
+}
+
+footer div.song-description {
+    margin: 0 3rem 0 .7em ;
+}
+footer .title:hover,
+footer .artist:hover {
+    text-decoration: underline;
+}
+
+footer div.song-description h5 {
+    color: white;
+}
+
+div.song-content > .far, .fas {
+    margin-left: .7em;
+}
+
+footer .controller-content {
+    justify-content: center;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+}
+
+footer span {
+    color: white;
+    font-size: .7rem;
+}
+
+footer .controller-content .control-buttons { 
+    color: white;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+footer .play-pause {
+    padding: .4em;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+footer .play-pause:hover{
+    transform: scale(1.1);
+}
+
+footer .progress-bar-container {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    gap: 1.2em;
+}
+
+footer .progress{
+    height: 4px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #c1c1c1;
+}
+
+footer .progress-bar {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    background-color: #5a5a5a;
 }
 
 @media screen and (max-width: 992px) {
