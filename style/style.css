@@ -51,6 +51,10 @@ main div.nav-icon {
     margin-bottom: 10px;
 }
 
+main div.nav-icon:hover {
+    color: white;
+}
+
 main .nav-icon .icon {
     width: 20px;
     margin-right: 7px;
@@ -69,6 +73,51 @@ main .nav-icon span a {
 main .side-menu-content .spotify-logo {
     width: 110px;
     margin-bottom: 1rem;
+}
+
+main #install {
+    align-items: center;
+    gap: .3em;
+}
+
+div#install img {
+    width: 20px;
+    filter: invert(50%);
+}
+
+main .bottom-menu .line {
+    width: 100%;
+    border-bottom: 1px solid #65686d;
+    margin: .5em 0;
+}
+
+main .bottom-menu a{
+    text-decoration: none;
+    font-size: .7rem;
+    color: #65686d;
+}
+
+main .bottom-menu #install a {  
+    font-size: .7rem;
+}
+
+main .bottom-menu #username {
+    align-items: center;
+    gap: .4em;
+}
+
+main #username a {
+    font-weight: bold;
+}
+
+main .bottom-menu #username img {
+    width: 20px;
+    border-radius: 50%;
+    background-color: #65686d;
+}
+
+main .bottom-menu #username a {
+    color: white;
 }
 
 main div.main-container {
