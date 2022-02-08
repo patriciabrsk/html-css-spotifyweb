@@ -238,7 +238,7 @@ div.circle-mask img {
 
 footer {
     height: 12vh;
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
     background-color: #282828;
 }
 
