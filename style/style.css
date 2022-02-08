@@ -25,6 +25,10 @@ body {
     color: #65686d;
 }
 
+.text-white {
+    color: white;
+}
+
 .text-small {
     font-size: .7rem;
 }
@@ -44,7 +48,6 @@ main nav.side-menu {
 
 main .side-menu-content {
     width: 80%;
-    /* stretch: 0; */
     margin: 15px;
     flex-direction: column;
     justify-content: space-between;
@@ -52,18 +55,16 @@ main .side-menu-content {
 
 main div.nav-icon {
     margin-bottom: 10px;
+    align-items: center;
 }
 
 main div.nav-icon:hover {
     color: white;
 }
 
-.icon {
-    margin-right: 7px;
-}
-
 main .top-menu .nav-icon .icon {
     width: 20px;
+    margin-right: 7px;
 }
 
 main .nav-icon span {
@@ -83,10 +84,6 @@ div.playlist {
     padding-top: .7rem;
 }
 
-div.playlist h5 {
-    color: white;
-}
-
 div.playlist a {
     font-size: .8rem;
 }
@@ -100,8 +97,13 @@ div.playlist .nav-icon {
     padding-top: .7rem;
 }
 
-div.playlist .nav-icon .icon {
-    width: 2rem;
+div.playlist .scroll-list {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+i.fa-plus-square{
+    margin-right: .5rem;
 }
 
 main #install {
@@ -122,7 +124,6 @@ main .bottom-menu .line {
 
 main .bottom-menu a{
     text-decoration: none;
-    font-size: .7rem;
 }
 
 main .bottom-menu #install a {  
@@ -144,10 +145,7 @@ main .bottom-menu #username img {
     background-color: #65686d;
 }
 
-main .bottom-menu #username a {
-    color: white;
-}
-
+/* Main */
 main div.main-container {
     width: 85vw;
     overflow-x: hidden;
@@ -166,14 +164,12 @@ div.call-to-action {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-div.call-to-action a.upgrade {
+div.call-to-action a {
     border: 1px solid white;
     border-radius: 25px;
     margin: 1rem;
     padding: 8px 30px;
     text-decoration: none;
-    color: white;
-    font-size: .7rem;
 }
 
 /* Main section and central navbar */
@@ -189,26 +185,25 @@ nav.central-nav {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: 1rem 0;
+    margin: 1rem;
 }
 
 nav.central-nav a{
     text-decoration: none;
-    color: #65686d;
-    font-size: .7rem;
 }
 
 section#main {
     padding-top: 70px;
 }
 
+/* Music row containers */
 main div.row-container {
     width: 82vw;
     margin: 0 auto 1rem;
 }
 
-main div.row-container h3 {
-    color: white;
+main div.row-title {
+    line-height: 1.7;
     margin-bottom: 1rem;
 }
 
@@ -222,8 +217,16 @@ div.row .album-box {
     flex-basis: 10em;
 }
 
-div.row .album-box p {
+div.row .album-box .music-description {
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    align-items: center;
+    gap: .3rem;
+}
+
+div.album-cover {
+    padding-bottom: .5rem;
 }
 
 div.album-cover img {
@@ -249,31 +252,22 @@ footer .music-player {
     width: 98%;
 }
 
-.song-content {
+footer .song-content {
     justify-content: center;
     align-items: center;
 }
 
-.song-content img {
+footer .song-content img {
     width: 3rem;
 }
 
-footer div.song-description {
+footer div.song-info{
     margin: 0 3rem 0 .7em ;
-}
-
-footer .artist {
-    color: #5a5a5a;
-    font-size: .7rem;
 }
 
 footer .title:hover,
 footer .artist:hover {
     text-decoration: underline;
-}
-
-footer div.song-description h5 {
-    color: white;
 }
 
 div.icons {
@@ -291,13 +285,7 @@ footer .controller-content {
     align-items: center;
 }
 
-footer span {
-    color: white;
-    font-size: .7rem;
-}
-
 footer .controller-content .control-buttons { 
-    color: white;
     align-items: center;
     text-align: center;
     gap: 1em;
@@ -353,10 +341,6 @@ footer .progress-bar:hover .progress {
 footer .features-content {
     align-items: center;
     gap: 1em;
-}
-
-footer .features-content i {
-    color: white;
 }
 
 footer .volume-bar {
