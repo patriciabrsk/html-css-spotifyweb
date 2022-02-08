@@ -25,6 +25,10 @@ body {
     color: #65686d;
 }
 
+.text-small {
+    font-size: .7rem;
+}
+
 /* Desktop-first */
 main .menu-container {
     height: 88vh;
@@ -47,7 +51,6 @@ main .side-menu-content {
 }
 
 main div.nav-icon {
-    font-size: .7rem;
     margin-bottom: 10px;
 }
 
@@ -82,6 +85,15 @@ div.playlist {
 
 div.playlist h5 {
     color: white;
+}
+
+div.playlist a {
+    font-size: .8rem;
+}
+
+div.playlist ul {
+    list-style-type: none;
+    line-height: 1.6rem;
 }
 
 div.playlist .nav-icon {
@@ -203,7 +215,7 @@ main div.row-container h3 {
 main div.row-container .row {
     height: 100%;
     flex-wrap: wrap;
-    gap: .7rem;
+    gap: .8rem;
 }
 
 div.row .album-box {
@@ -216,6 +228,12 @@ div.row .album-box p {
 
 div.album-cover img {
     width: 100%;
+}
+
+div.circle-mask img {
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
 }
 
 footer {
