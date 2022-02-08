@@ -24,22 +24,30 @@
 
                         <div class="nav-icon flex">
                             <img class="icon" src="img/home.svg" alt="home icon">
-                            <span><a href="#">Home</a></span>
+                            <span><a class="text-grey" href="#">Home</a></span>
                         </div>
                         <div class="nav-icon flex">
                             <img class="icon" src="img/search.svg" alt="search icon">
-                            <span><a href="#">Cerca</a></span>
+                            <span><a class="text-grey" href="#">Cerca</a></span>
                         </div>
-                        <div class="nav-icon flex">
+                        <div class="nav-icon text-grey flex">
                             <img class="icon" src="img/libreria.svg" alt="library icon">
-                            <span><a href="#">La tua libreria</a></span>
+                            <span><a class="text-grey" href="#">La tua libreria</a></span>
+                        </div>
+
+                        <div class="playlist">
+                            <h5>PLAYLIST</h5>
+                            <div class="nav-icon flex">
+                                <img class="icon" src="img/home.svg" alt="home icon">
+                                <span><a class="text-grey" href="#">Crea la tua playlist</a></span>
+                            </div>
                         </div>
                     </div>
                     <div class="bottom-menu">
                     
                         <div id="install" class="flex">
                             <img src="img/download.svg" alt="download icon">
-                            <a href="#">Installa app</a>
+                            <a class="text-grey" href="#">Installa app</a>
                         </div>
                         <div class="line"></div>
                         <div id="username" class="flex">
@@ -49,101 +57,104 @@
                     </div>
                 </div>
             </nav>
+        </div>
 
 
-        <div class="main-container">
-            <!-- Upgrade call to action -->
-            <section id="main">
+            <div class="main-container">
+            <!-- Upgrade call to action --> 
                 <div class="call-to-action flex">
                     <a href="#" class="upgrade">EFFETTUA L'UPGRADE</a>
                 </div>
-                <!-- Central navbar -->
-                <div class="nav-container flex">
-                    <nav class="central-nav flex">
-                        <a href="">IN EVIDENZA</a>
-                        <a href="">PODCAST</a>
-                        <a href="">CLASSIFICHE</a>
-                        <a href="">GENERI E MOOD</a>
-                        <a href="">NUOVE USCITE</a>
-                        <a href="">SCOPRI</a>
-                    </nav>
-                </div>
+                
+                    <section id="main">
+                    <!-- Central navbar -->
+                    <div class="nav-container flex">
+                        <nav class="central-nav flex">
+                            <a href="">IN EVIDENZA</a>
+                            <a href="">PODCAST</a>
+                            <a href="">CLASSIFICHE</a>
+                            <a href="">GENERI E MOOD</a>
+                            <a href="">NUOVE USCITE</a>
+                            <a href="">SCOPRI</a>
+                        </nav>
+                    </div>
 
-                    <div class="row-container">
-                        <h3>Recently played</h3>
-                        <div class="row flex">
-
-                            
+                        <div class="row-container">
+                            <h3>Recently played</h3>
+                            <div class="row flex">
+                                <div class="album-cover">
+                                    <div class="top-row"></div>
+                                    <div class="bot-row"></div>
+                                </div>
+                                
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row-container">
-                        <h3>Creato per John Doe</h3>
-                        <div class="row flex">
+                        <div class="row-container">
+                            <h3>Creato per John Doe</h3>
+                            <div class="row flex">
 
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row-container">
-                        <h3>Creato per John Doe</h3>
-                        <div class="row flex">
+                        <div class="row-container">
+                            <h3>Artisti più popolari</h3>
+                            <div class="row flex">
 
+                            </div>
                         </div>
-                    </div>
-            </section>
-
-        </div>
-    </main>
-
-    <footer class="flex">
-        <div class="music-player flex">
-            <div class="song-content flex">
-                <div class="song-image">
-                    <img src="img/sinister.jpeg" alt="Sinister cover">
-                </div>
-                <div class="song-description">
-                    <h5 class="title">Sinister</h5>
-                    <p class="artist">Nome Artista</p>
-                </div>
-
-                <div class="icons">
-                    <i class="far fa-heart"></i>
-                    <i class="far fa-folder"></i>
-                </div>
-            </div>
-
-            <div class="controller-content flex">
-                <div class="control-buttons flex">
-                    <i class="fas fa-random"></i>
-                    <i class="fas fa-step-backward"></i>
-                    <i class="play-pause fas fa-play"></i>
-                    <i class="fas fa-step-forward"></i>
-                    <i class="fas fa-undo-alt"></i>
-                </div>
-
-                <div class="progress-bar-container flex">
-                    <span>0:25</span>
-                    <div class="progress-bar">
-                        <div class="progress"></div>
-                    </div>
-                    <span>4:35</span>
-                </div>
+                </section>
 
             </div>
-            
-            <div class="features-content flex">
-                <i class="fas fa-list-ul"></i>
-                <i class="fas fa-desktop"></i>
+        </main>
 
-                <div class="volume-bar flex">
-                    <i class="fas fa-volume-up"></i>
-                    <div class="progress-bar">
-                        <div class="progress"></div>
+        <footer class="flex">
+            <div class="music-player flex">
+                <div class="song-content flex">
+                    <div class="song-image">
+                        <img src="img/sinister.jpeg" alt="Sinister cover">
+                    </div>
+                    <div class="song-description">
+                        <h5 class="title">Sinister</h5>
+                        <p class="artist">Nome Artista</p>
+                    </div>
+
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="far fa-folder"></i>
+                    </div>
+                </div>
+
+                <div class="controller-content flex">
+                    <div class="control-buttons flex">
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-step-backward"></i>
+                        <i class="play-pause fas fa-play"></i>
+                        <i class="fas fa-step-forward"></i>
+                        <i class="fas fa-undo-alt"></i>
+                    </div>
+
+                    <div class="progress-bar-container flex">
+                        <span>0:25</span>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <span>4:35</span>
                     </div>
                 </div>
                 
+                <div class="features-content flex">
+                    <i class="fas fa-list-ul"></i>
+                    <i class="fas fa-desktop"></i>
+
+                    <div class="volume-bar flex">
+                        <i class="fas fa-volume-up"></i>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 </body>
 </html>

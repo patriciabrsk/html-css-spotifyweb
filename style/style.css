@@ -17,12 +17,12 @@ body {
     font-family: 'Circular Std', sans-serif;
 }
 
-main {
-    flex-direction: row;
-}
-
 .flex {
     display: flex;
+}
+
+.text-grey {
+    color: #65686d;
 }
 
 /* Desktop-first */
@@ -46,7 +46,6 @@ main .side-menu-content {
 }
 
 main div.nav-icon {
-    color: #65686d;
     font-size: .7rem;
     margin-bottom: 10px;
 }
@@ -55,10 +54,12 @@ main div.nav-icon:hover {
     color: white;
 }
 
-main .nav-icon .icon {
-    width: 20px;
+.icon {
     margin-right: 7px;
-    color: #65686d;
+}
+
+main .top-menu .nav-icon .icon {
+    width: 20px;
 }
 
 main .nav-icon span {
@@ -67,12 +68,27 @@ main .nav-icon span {
 
 main .nav-icon span a {
     text-decoration: none;
-    color: #65686d;
 }
 
 main .side-menu-content .spotify-logo {
     width: 110px;
     margin-bottom: 1rem;
+}
+
+div.playlist {
+    padding-top: .7rem;
+}
+
+div.playlist h5 {
+    color: white;
+}
+
+div.playlist .nav-icon {
+    padding-top: .7rem;
+}
+
+div.playlist img {
+    width: 3rem;
 }
 
 main #install {
@@ -94,7 +110,6 @@ main .bottom-menu .line {
 main .bottom-menu a{
     text-decoration: none;
     font-size: .7rem;
-    color: #65686d;
 }
 
 main .bottom-menu #install a {  
@@ -167,12 +182,6 @@ nav.central-nav a{
     text-decoration: none;
     color: #65686d;
     font-size: .7rem;
-}
-
-div#main-container {
-    overflow-x: hidden;
-    overflow-y: auto;
-    height: 100%;
 }
 
 main div.row-container {
