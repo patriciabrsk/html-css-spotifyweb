@@ -136,7 +136,6 @@ main .bottom-menu #username a {
     color: white;
 }
 
-/* Main section and central navbar */
 main div.main-container {
     width: 85vw;
     overflow-x: hidden;
@@ -165,6 +164,7 @@ div.call-to-action a.upgrade {
     font-size: .7rem;
 }
 
+/* Main section and central navbar */
 div.main-container .nav-container {
     justify-content: center;
     align-items: center;
@@ -184,6 +184,10 @@ nav.central-nav a{
     text-decoration: none;
     color: #65686d;
     font-size: .7rem;
+}
+
+section#main {
+    padding-top: 70px;
 }
 
 main div.row-container {
