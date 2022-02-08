@@ -150,17 +150,20 @@ div.call-to-action a.upgrade {
 
 div.main-container .nav-container {
     justify-content: center;
-}
-
-.central-nav {
-    margin: auto;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    width: 40vw;
+    margin: auto;
+    flex-basis: 90%;
+    height: 100%;
 }
 
-div.central-nav a{
+nav.central-nav {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+nav.central-nav a{
     text-decoration: none;
     color: #65686d;
     font-size: .7rem;
@@ -286,7 +289,7 @@ footer .progress-bar {
     background-color: #5a5a5a;
 }
 
-.progress-bar:hover .progress {
+footer .progress-bar:hover .progress {
     background-color: #1cd05d;
 }
 
