@@ -201,8 +201,21 @@ main div.row-container h3 {
 }
 
 main div.row-container .row {
-    height: 25vh;
-    background-color: yellowgreen;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: .7rem;
+}
+
+div.row .album-box {
+    flex-basis: 10em;
+}
+
+div.row .album-box p {
+    text-align: center;
+}
+
+div.album-cover img {
+    width: 100%;
 }
 
 footer {
