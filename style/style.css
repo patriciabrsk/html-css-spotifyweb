@@ -34,6 +34,7 @@ main .menu-container {
 main nav.side-menu {
     width: 15vw;
     height: 88vh;
+    justify-content: center;
     background-color: black;
 }
 
@@ -87,8 +88,8 @@ div.playlist .nav-icon {
     padding-top: .7rem;
 }
 
-div.playlist img {
-    width: 3rem;
+div.playlist .nav-icon .icon {
+    width: 2rem;
 }
 
 main #install {
@@ -148,7 +149,8 @@ div.call-to-action {
     justify-content: flex-end;
     align-items: center;
     height: 70px;
-    position: sticky;
+    width: 85vw;
+    position: fixed;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.5);
 }
