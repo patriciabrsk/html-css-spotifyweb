@@ -41,7 +41,7 @@ main .menu-container {
 /* Left side navbar menu */
 main nav.side-menu {
     width: 15vw;
-    height: 88vh;
+    height: 100%;
     justify-content: center;
     background-color: black;
 }
@@ -100,6 +100,7 @@ div.playlist .nav-icon {
 div.playlist .scroll-list {
     overflow-x: hidden;
     overflow-y: auto;
+    height: 20rem;
 }
 
 i.fa-plus-square{
@@ -198,8 +199,7 @@ section#main {
 
 /* Music row containers */
 main div.row-container {
-    width: 82vw;
-    margin: 0 auto 1rem;
+    margin: 0 1rem 1rem;
 }
 
 main div.row-title {
@@ -214,7 +214,7 @@ main div.row-container .row {
 }
 
 div.row .album-box {
-    flex-basis: 10em;
+    width: 10em;
 }
 
 div.row .album-box .music-description {
