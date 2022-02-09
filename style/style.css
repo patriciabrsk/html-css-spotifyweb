@@ -364,21 +364,6 @@ footer .volume-bar {
     width: 6em;
 }
 
-/* lg screen */
-@media screen and (max-width: 1200px) {
-    
-}
-
-/* md screen */
-@media screen and (max-width: 992px) {
-    
-}
-
-/* sm screen */
-@media screen and (max-width: 768px) {
-    
-}
-
 /* Mobile xs */
 @media screen and (max-width: 576px) {
     main nav.side-menu {
@@ -431,3 +416,34 @@ footer .volume-bar {
     }
 
 }    
+
+/* md screen */
+@media screen and (max-width: 992px) {
+    div.row .album-box {
+        width: calc((100% - 30px)/ 4);
+        /* width: 150px; */
+    }
+
+    footer {
+
+    }
+}
+
+
+
+/* sm screen */
+@media screen and (max-width: 768px) {
+    div.row .album-box {
+        width: calc((100% - 10px)/ 2);
+        /* width: 150px; */
+    }
+
+    footer {
+        
+    }
+}
+
+/* lg screen */
+/* @media screen and (max-width: 1200px) {
+    
+} */
