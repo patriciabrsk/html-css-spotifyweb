@@ -40,7 +40,7 @@ main .menu-container {
 
 /* Left side navbar menu */
 main nav.side-menu {
-    width: 15vw;
+    width: 17vw;
     height: 100%;
     justify-content: center;
     background-color: black;
@@ -148,7 +148,7 @@ main .bottom-menu #username img {
 
 /* Main */
 main div.main-container {
-    width: 85vw;
+    width: 83vw;
     overflow-x: hidden;
     overflow-y: auto;
     background-color: #141922;
@@ -159,7 +159,7 @@ div.call-to-action {
     justify-content: flex-end;
     align-items: center;
     height: 70px;
-    width: 85vw;
+    width: 83vw;
     position: fixed;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.5);
@@ -214,7 +214,7 @@ main div.row-container .row {
 }
 
 div.row .album-box {
-    width: calc(94.6% / 6);
+    width: calc(94.4% / 6);
     /* width: 150px; */
 }
 
@@ -235,14 +235,14 @@ div.album-cover img {
 }
 
 div.circle-mask img {
-    width: 100%;
     border-radius: 50%;
-    /* height: 150px;
-    width: 150px; */
+    height: 150px;
+    width: 150px;
 }
 
 footer {
-    height: 12vh;
+    height: 90px;
+    z-index: 2;
     flex-shrink: 0;
     background-color: #282828;
 }
@@ -284,7 +284,6 @@ footer .controller-content {
     justify-content: center;
     flex-direction: column;
     gap: .5em;
-    flex-basis: 100%;
     align-items: center;
 }
 
@@ -307,7 +306,7 @@ footer .play-pause:hover{
 footer .progress-bar-container {
     align-items: center;
     justify-content: center;
-    width: 55%;
+    width: 500px;
     gap: 1.2em;
 }
 
@@ -368,5 +367,10 @@ footer .volume-bar {
 
 /* sm screen */
 @media screen and (max-width: 768px) {
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
     
 }
