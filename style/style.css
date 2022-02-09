@@ -214,7 +214,8 @@ main div.row-container .row {
 }
 
 div.row .album-box {
-    width: 10em;
+    width: calc(94.6% / 6);
+    /* width: 150px; */
 }
 
 div.row .album-box .music-description {
@@ -234,9 +235,10 @@ div.album-cover img {
 }
 
 div.circle-mask img {
+    width: 100%;
     border-radius: 50%;
-    height: 10em;
-    width: 10em;
+    /* height: 150px;
+    width: 150px; */
 }
 
 footer {
@@ -249,12 +251,13 @@ footer .music-player {
     justify-content: space-between;
     margin: auto 1rem;
     align-items: center;
-    width: 98%;
+    width: 100%;
 }
 
 footer .song-content {
     justify-content: center;
     align-items: center;
+    
 }
 
 footer .song-content img {
@@ -282,6 +285,7 @@ footer .controller-content {
     justify-content: center;
     flex-direction: column;
     gap: .5em;
+    
     align-items: center;
 }
 
@@ -351,6 +355,11 @@ footer .volume-bar {
 
 .volume-bar .progress-bar{
     width: 6em;
+}
+
+/* sm screen */
+@media screen and (max-width: 768px) {
+    
 }
 
 /* lg screen */
