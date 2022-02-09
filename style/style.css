@@ -260,7 +260,7 @@ footer .music-player {
     justify-content: space-between;
     margin: auto 1rem;
     align-items: center;
-    width: 98%;
+    width: 100%;
 }
 
 footer .song-content {
@@ -281,12 +281,14 @@ footer .artist:hover {
     text-decoration: underline;
 }
 
-div.icons {
+footer div.icons {
     color: #5a5a5a;
+    width: 15px;
+    gap: 28px;
 }
 
 div.icons .fa-folder {
-    margin-left: .7em;
+    /* margin-left: .7em; */
 }
 
 footer .controller-content {
@@ -315,7 +317,7 @@ footer .play-pause:hover{
 footer .progress-bar-container {
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 100%;
     gap: 1.2em;
 }
 
@@ -329,7 +331,8 @@ footer .progress{
 
 footer .progress-bar {
     height: 100%;
-    width: 100%;
+    width: 30vw;
+    /* width: 100%; */
     border-radius: 10px;
     background-color: #5a5a5a;
 }
@@ -361,7 +364,7 @@ footer .volume-bar {
 }
 
 .volume-bar .progress-bar{
-    width: 6em;
+    width: 6vw;
 }
 
 /* Mobile xs */
