@@ -235,10 +235,10 @@ div.album-cover img {
 }
 
 div.circle-mask img {
-    width: 100%;
+    width: calc(94.6% / 6);
     border-radius: 50%;
-    /* height: 150px;
-    width: 150px; */
+    height: 150px;
+    width: 150px;
 }
 
 footer {
@@ -251,13 +251,12 @@ footer .music-player {
     justify-content: space-between;
     margin: auto 1rem;
     align-items: center;
-    width: 100%;
+    width: 98%;
 }
 
 footer .song-content {
     justify-content: center;
     align-items: center;
-    
 }
 
 footer .song-content img {
@@ -285,7 +284,7 @@ footer .controller-content {
     justify-content: center;
     flex-direction: column;
     gap: .5em;
-    
+    flex-basis: 100%;
     align-items: center;
 }
 
@@ -308,7 +307,7 @@ footer .play-pause:hover{
 footer .progress-bar-container {
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 55%;
     gap: 1.2em;
 }
 
@@ -355,11 +354,6 @@ footer .volume-bar {
 
 .volume-bar .progress-bar{
     width: 6em;
-}
-
-/* sm screen */
-@media screen and (max-width: 768px) {
-    
 }
 
 /* lg screen */
