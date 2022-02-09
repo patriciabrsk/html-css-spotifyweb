@@ -80,9 +80,9 @@ main .side-menu-content div.spotify-logo {
     background-image: url("../img/logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 110px;
+    width: 120px;
     height: 50px;
-    margin-bottom: 0.3rem;
+    margin-bottom: 5px;
 }
 
 div.playlist {
@@ -116,13 +116,13 @@ i.fa-plus-square{
     margin-right: .5rem;
 }
 
-main #install {
+main div#install {
     align-items: center;
-    gap: .3em;
 }
 
 div#install img {
     width: 20px;
+    margin-right: .4rem;
     filter: invert(50%);
 }
 
@@ -393,13 +393,26 @@ footer .volume-bar {
         width: 93vw;
     }
 
-    nav.side-menu .nav-icon .spotify-logo {
+    nav.side-menu div.spotify-logo {
         background-image: url("../img/logo-small.svg");
-        width: 300px;
+        width: inherit;
+        height: 35px;
+        margin: 0;
+    }
+
+    nav.side-menu .top-menu,
+    nav.side-menu .bottom-menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    nav.side-menu .top-menu img.icon {
+        margin-right: 0;
     }
 
     main nav.side-menu .side-menu-content {
-        justify-content: space-between;
+        margin: 0 auto;
     }
 
     nav.side-menu .top-menu span,
@@ -409,6 +422,15 @@ footer .volume-bar {
         display: none;
     }
 
+    main .bottom-menu div#install img {
+        width: 30%;
+        padding-bottom: 10px;
+    }
+
+    main .bottom-menu div#username img,
+    main .bottom-menu div#install img {
+        margin: 0 auto;
+    }
 
 
 }    
