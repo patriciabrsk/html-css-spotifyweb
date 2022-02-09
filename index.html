@@ -7,7 +7,7 @@
     <title>Spotify Web</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image" href="img/favicon.ico"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
 
     <!-- Font-Awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -17,202 +17,200 @@
 </head>
 <body>
     <main class="flex">
-        <div class="container flex">
-            <!-- Left side navbar menu -->
-            <nav class="side-menu flex">
-                <div class="side-menu-content flex">
-                    <div class="top-menu">
-                        <div class="spotify-logo">
-                            <img src="img/logo.svg" alt="spotify logo">
-                        </div>
-
-                        <div class="nav-icon text-small flex">
-                            <img class="icon" src="img/home.svg" alt="home icon">
-                            <span><a class="text-grey" href="#">Home</a></span>
-                        </div>
-                        <div class="nav-icon text-small flex">
-                            <img class="icon" src="img/search.svg" alt="search icon">
-                            <span><a class="text-grey" href="#">Cerca</a></span>
-                        </div>
-                        <div class="nav-icon text-small flex">
-                            <img class="icon" src="img/libreria.svg" alt="library icon">
-                            <span><a class="text-grey" href="#">La tua libreria</a></span>
-                        </div>
-
-                        <div class="playlist">
-                            <h5 class="text-white">PLAYLIST</h5>
-                            <div class="nav-icon text-small flex">
-                                <i class="fas fa-plus-square text-grey"></i>
-                                <span><a class="text-grey" href="#">Crea playlist</a></span>
-                            </div>
-                            <div class="scroll-list">
-                                <ul class="text-grey text-small">
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                    <li>Nome Playlist</li>
-                                </ul>
-                            </div>
-                        </div>
+        <!-- Left side navbar menu -->
+        <nav class="side-menu flex">
+            <div class="side-menu-content flex">
+                <div class="top-menu">
+                    <div class="spotify-logo">
+                        <!-- <img src="img/logo.svg" alt="spotify logo"> -->
                     </div>
-                    <div class="bottom-menu">
-                    
-                        <div id="install" class="flex">
-                            <img src="img/download.svg" alt="download icon">
-                            <a class="text-grey text-small" href="#">Installa app</a>
+
+                    <div class="nav-icon text-small flex">
+                        <img class="icon" src="img/home.svg" alt="home icon">
+                        <span><a class="text-grey" href="#">Home</a></span>
+                    </div>
+                    <div class="nav-icon text-small flex">
+                        <img class="icon" src="img/search.svg" alt="search icon">
+                        <span><a class="text-grey" href="#">Cerca</a></span>
+                    </div>
+                    <div class="nav-icon text-small flex">
+                        <img class="icon" src="img/libreria.svg" alt="library icon">
+                        <span><a class="text-grey" href="#">La tua libreria</a></span>
+                    </div>
+
+                    <div class="playlist">
+                        <h5 class="text-white">PLAYLIST</h5>
+                        <div class="nav-icon text-small flex">
+                            <i class="fas fa-plus-square text-grey"></i>
+                            <span><a class="text-grey" href="#">Crea playlist</a></span>
                         </div>
-                        <div class="line"></div>
-                        <div id="username" class="flex">
-                            <img src="img/profile.svg" alt="username icon">
-                            <h5><a class="text-white" href="#">John Doe</a></h5>
+                        <div class="scroll-list">
+                            <ul class="text-grey text-small">
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </nav>
-        
-            <div class="main-container">
-            <!-- Upgrade call to action --> 
-                <div class="call-to-action flex text-small">
-                    <a href="#" class="text-white">EFFETTUA L'UPGRADE</a>
-                </div>
+                <div class="bottom-menu">
                 
-                <section id="main">
-                    <!-- Central navbar -->
-                    <div class="nav-container flex">
-                        <nav class="central-nav flex text-small">
-                            <a class="text-grey" href="#">In evidenza</a>
-                            <a class="text-grey" href="#">Podcast</a>
-                            <a class="text-grey" href="#">Classifiche</a>
-                            <a class="text-grey" href="#">Generi e mood</a>
-                            <a class="text-grey" href="#">Nuove uscite</a>
-                            <a class="text-grey" href="#">Scopri</a>
-                        </nav>
+                    <div id="install" class="flex">
+                        <img src="img/download.svg" alt="download icon">
+                        <a class="text-grey text-small" href="#">Installa app</a>
                     </div>
-
-                        <div class="row-container">
-                            <div class="row-title text-white">
-                                <h3>Recently played</h3>
-                            </div>
-                            <div class="row flex">
-                                <div class="album-box ">
-                                    <div class="album-cover ">
-                                        <img src="img/metal_lifting.jpg" alt="Metal music covers">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">Heavy Metal</h5>
-                                        <p class="text-grey text-small">Subtitle</p>
-                                    </div>
-                                </div>
-
-                                <div class="album-box">
-                                    <div class="album-cover">
-                                        <img src="img/stranger.jpeg" alt="Stranger Things cover">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h5>
-                                        <p class="text-grey text-small">Kyle Dixon & Michael Stein</p>
-                                    </div>
-                                </div>
-
-                                <div class="album-box">
-                                    <div class="album-cover">
-                                        <img src="img/aquietplace.jpeg" alt="A quiet place cover">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">A quiet place</h5>
-                                        <p class="text-grey text-small">Subtitle</p>
-                                    </div>
-                                </div>
-
-                                <div class="album-box">
-                                    <div class="album-cover">
-                                        <img src="img/split.jpeg" alt="Split cover">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">Split</h5>
-                                        <p class="text-grey text-small">Subtitle</p>
-                                    </div>
-                                </div>
-
-                                <div class="album-box">
-                                    <div class="album-cover">
-                                        <img src="img/cure.jpeg" alt="A cure for wellness cover">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">A cure for wellness</h5>
-                                        <p class="text-grey text-small">Subtitle</p>
-                                    </div>
-                                </div>
-
-                                <div class="album-box">
-                                    <div class="album-cover">
-                                        <img src="img/sinister.jpeg" alt="Sinister cover">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">Sinister</h5>
-                                        <p class="text-grey text-small">Subtitle</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row-container">
-                            <div class="row-title text-white">
-                                <h3>Creato per John Doe</h3>
-                                <p class="text-grey text-small">Più ascolti, più accurati saranno i suggerimenti.</p>
-                            </div>
-                            <div class="row flex">
-                                <div class="album-box">
-                                    <div class="album-cover">
-                                        <img src="img/radar.jpeg" alt="Metal player cover">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">Release Radar</h5>
-                                    </div>
-                                </div>
-
-                                <div class="album-box">
-                                    <div class="album-cover">
-                                        <img src="img/mixdaily.jpeg" alt="Stranger Things cover">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">Daily Mix 1</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row-container">
-                            <div class="row-title text-white">
-                                <h3>Artisti più popolari</h3>
-                                <p class="text-grey text-small">Più ascolti, più accurati saranno i suggerimenti.</p>
-                            </div>
-                            <div class="row flex">
-                                <div class="album-box">
-                                    <div class="album-cover circle-mask">
-                                        <img class="Lana" src="img/youg.jpeg" alt="Lana Del Rey record image">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">Lana Del Rey</h5>
-                                    </div>
-                                </div>
-
-                                <div class="album-box">
-                                    <div class="album-cover circle-mask">
-                                        <img class="Einaudi" src="img/einaudi.jpeg" alt="Einaudi image">
-                                    </div>
-                                    <div class="music-description flex">
-                                        <h5 class="text-white">Ludovico Einaudi</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
+                    <div class="line"></div>
+                    <div id="username" class="flex">
+                        <img src="img/profile.svg" alt="username icon">
+                        <h5><a class="text-white" href="#">John Doe</a></h5>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
+    
+        <div class="main-container">
+        <!-- Upgrade call to action --> 
+            <div class="call-to-action flex text-small">
+                <a href="#" class="text-white">EFFETTUA L'UPGRADE</a>
+            </div>
+            
+            <section id="main">
+                <!-- Central navbar -->
+                <div class="nav-container flex">
+                    <nav class="central-nav flex text-small">
+                        <a class="text-grey" href="#">In evidenza</a>
+                        <a class="text-grey" href="#">Podcast</a>
+                        <a class="text-grey" href="#">Classifiche</a>
+                        <a class="text-grey" href="#">Generi e mood</a>
+                        <a class="text-grey" href="#">Nuove uscite</a>
+                        <a class="text-grey" href="#">Scopri</a>
+                    </nav>
+                </div>
+
+                <div class="row-container">
+                    <div class="row-title text-white">
+                        <h3>Recently played</h3>
+                    </div>
+                    <div class="row flex">
+                        <div class="album-box ">
+                            <div class="album-cover ">
+                                <img src="img/metal_lifting.jpg" alt="Metal music covers">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">Heavy Metal</h5>
+                                <p class="text-grey text-small">Subtitle</p>
+                            </div>
+                        </div>
+
+                        <div class="album-box">
+                            <div class="album-cover">
+                                <img src="img/stranger.jpeg" alt="Stranger Things cover">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h5>
+                                <p class="text-grey text-small">Kyle Dixon & Michael Stein</p>
+                            </div>
+                        </div>
+
+                        <div class="album-box">
+                            <div class="album-cover">
+                                <img src="img/aquietplace.jpeg" alt="A quiet place cover">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">A quiet place</h5>
+                                <p class="text-grey text-small">Subtitle</p>
+                            </div>
+                        </div>
+
+                        <div class="album-box">
+                            <div class="album-cover">
+                                <img src="img/split.jpeg" alt="Split cover">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">Split</h5>
+                                <p class="text-grey text-small">Subtitle</p>
+                            </div>
+                        </div>
+
+                        <div class="album-box">
+                            <div class="album-cover">
+                                <img src="img/cure.jpeg" alt="A cure for wellness cover">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">A cure for wellness</h5>
+                                <p class="text-grey text-small">Subtitle</p>
+                            </div>
+                        </div>
+
+                        <div class="album-box">
+                            <div class="album-cover">
+                                <img src="img/sinister.jpeg" alt="Sinister cover">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">Sinister</h5>
+                                <p class="text-grey text-small">Subtitle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-container">
+                    <div class="row-title text-white">
+                        <h3>Creato per John Doe</h3>
+                        <p class="text-grey text-small">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    </div>
+                    <div class="row flex">
+                        <div class="album-box">
+                            <div class="album-cover">
+                                <img src="img/radar.jpeg" alt="Metal player cover">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">Release Radar</h5>
+                            </div>
+                        </div>
+
+                        <div class="album-box">
+                            <div class="album-cover">
+                                <img src="img/mixdaily.jpeg" alt="Stranger Things cover">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">Daily Mix 1</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-container">
+                    <div class="row-title text-white">
+                        <h3>Artisti più popolari</h3>
+                        <p class="text-grey text-small">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    </div>
+                    <div class="row flex">
+                        <div class="album-box">
+                            <div class="album-cover circle-mask">
+                                <img class="Lana" src="img/youg.jpeg" alt="Lana Del Rey record image">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">Lana Del Rey</h5>
+                            </div>
+                        </div>
+
+                        <div class="album-box">
+                            <div class="album-cover circle-mask">
+                                <img class="Einaudi" src="img/einaudi.jpeg" alt="Einaudi image">
+                            </div>
+                            <div class="music-description flex">
+                                <h5 class="text-white">Ludovico Einaudi</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
     </main>
 
     <footer class="flex">
