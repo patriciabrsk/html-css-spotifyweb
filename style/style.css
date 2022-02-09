@@ -34,7 +34,7 @@ body {
 }
 
 /* Desktop-first */
-main .menu-container {
+main .container {
     height: 88vh;
 }
 
@@ -42,7 +42,7 @@ main .menu-container {
 main nav.side-menu {
     width: 17vw;
     height: 100%;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: black;
 }
 
@@ -76,6 +76,9 @@ main .nav-icon span a {
 }
 
 main .side-menu-content .spotify-logo {
+    background-image: url("../img/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 110px;
     margin-bottom: 1rem;
 }
@@ -100,7 +103,7 @@ div.playlist .nav-icon {
 div.playlist .scroll-list {
     overflow-x: hidden;
     overflow-y: auto;
-    height: 20rem;
+    height: 100%;
 }
 
 i.fa-plus-square{
@@ -372,5 +375,27 @@ footer .volume-bar {
 
 /* Mobile */
 @media screen and (max-width: 576px) {
-    
-}
+    main nav.side-menu {
+        flex-direction: column;
+        width: 8vw;
+    }
+
+    main div.main-container,
+    div.call-to-action {
+        width: 92vw;
+    }
+
+    nav.side-menu .top-menu span,
+    nav.side-menu .bottom-menu a,
+    main nav.side-menu .playlist {
+        display: none;
+    }
+
+    nav.side-menu .nav-icon .spotify-logo {
+        background-image: url("../img/logo-small.svg");
+    }
+
+    main nav.side-menu .side-menu-content {
+        justify-content: space-between;
+    }
+}    
