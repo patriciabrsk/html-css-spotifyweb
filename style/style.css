@@ -235,10 +235,10 @@ div.album-cover img {
 }
 
 div.circle-mask img {
-    width: calc(94.6% / 6);
+    width: 100%;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
 }
 
 footer {
