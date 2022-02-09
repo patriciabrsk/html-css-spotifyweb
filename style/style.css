@@ -177,7 +177,6 @@ div.call-to-action a {
 div.main-container .nav-container {
     justify-content: center;
     align-items: center;
-    margin: auto;
     flex-basis: 90%;
     height: 100%;
 }
