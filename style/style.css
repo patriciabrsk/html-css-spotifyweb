@@ -191,6 +191,7 @@ nav.central-nav {
 
 nav.central-nav a{
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 section#main {
