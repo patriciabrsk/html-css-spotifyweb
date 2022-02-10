@@ -83,6 +83,8 @@ main .nav-icon span a {
     text-decoration: none;
 }
 
+
+
 main .side-menu-content div.spotify-logo {
     background-image: url("../img/logo.svg");
     background-size: contain;
@@ -117,6 +119,10 @@ div.playlist .scroll-list {
     overflow-x: hidden;
     overflow-y: auto;
     height: 100%;
+}
+
+div.playlist ul {
+    overflow-y: auto;
 }
 
 i.fa-plus-square{
@@ -216,7 +222,7 @@ nav.central-nav {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
-    height: 20px;
+    /* height: 20px; */
     line-height: 2;
     margin: 1rem 2rem;
 }
