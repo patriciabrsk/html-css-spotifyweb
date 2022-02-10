@@ -195,7 +195,8 @@ nav.central-nav {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: 1rem;
+    line-height: 2;
+    margin: 1rem 2rem;
 }
 
 nav.central-nav a{
