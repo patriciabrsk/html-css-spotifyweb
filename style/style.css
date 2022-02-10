@@ -222,8 +222,8 @@ nav.central-nav {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
-    /* height: 20px; */
-    line-height: 2;
+    height: 23px;
+    /* line-height: 2; */
     margin: 1rem 2rem;
 }
 
