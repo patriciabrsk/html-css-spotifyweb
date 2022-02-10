@@ -60,6 +60,8 @@ main div.nav-icon {
 }
 
 main div.nav-icon a:hover,
+main div.nav-icon i:hover,
+main .nav-icon:hover,
 .scroll-list li:hover{
     color: white;
 }
