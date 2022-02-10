@@ -59,8 +59,13 @@ main div.nav-icon {
     align-items: center;
 }
 
-main div.nav-icon:hover{
+main div.nav-icon a:hover,
+.scroll-list li:hover{
     color: white;
+}
+
+.scroll-list li:hover {
+    cursor: pointer;
 }
 
 main .top-menu .nav-icon .icon {
@@ -140,6 +145,12 @@ main .bottom-menu #install a {
     font-size: .7rem;
 }
 
+main .bottom-menu #install img:hover,
+.bottom-menu #install a:hover {
+    color: white;
+    cursor: pointer;
+}
+
 main .bottom-menu #username {
     align-items: center;
     gap: .4em;
@@ -147,6 +158,10 @@ main .bottom-menu #username {
 
 main #username a {
     font-weight: bold;
+}
+
+main #username a:hover {
+    cursor: pointer;
 }
 
 main .bottom-menu #username img {
@@ -272,6 +287,7 @@ footer .music-player {
 footer .song-content {
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 footer .song-content img {
@@ -290,7 +306,11 @@ footer .artist:hover {
 footer div.icons {
     color: #5a5a5a;
     width: 15px;
-    gap: 28px;
+    gap: 10px;
+}
+
+footer div.icons i:hover {
+    color: white;
 }
 
 div.icons .fa-folder {
@@ -318,6 +338,10 @@ footer .play-pause {
 
 footer .play-pause:hover{
     transform: scale(1.1);
+}
+
+footer .control-buttons i {
+    cursor: pointer;
 }
 
 footer .progress-bar-container {
@@ -352,6 +376,7 @@ footer .progress-bar:hover .progress {
     position: absolute;
     right: 0;
     padding: 7px;
+    cursor: pointer;
     size: 1em;
     background-color: white;
     border-radius: 50%;
