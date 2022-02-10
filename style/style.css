@@ -195,13 +195,18 @@ nav.central-nav {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
+    height: 20px;
     line-height: 2;
     margin: 1rem 2rem;
 }
 
-nav.central-nav a{
+nav.central-nav a {
     text-decoration: none;
     text-transform: uppercase;
+}
+
+nav.central-nav a:hover {
+    border-bottom: 3px solid #1cd05d;
 }
 
 section#main {
