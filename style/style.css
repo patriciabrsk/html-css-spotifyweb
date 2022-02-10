@@ -198,6 +198,10 @@ div.call-to-action a {
     text-decoration: none;
 }
 
+div.call-to-action a:hover {
+    transform: scale(1.1);
+}
+
 /* Main section and central navbar */
 div.main-container .nav-container {
     justify-content: center;
@@ -222,6 +226,7 @@ nav.central-nav a {
 
 nav.central-nav a:hover {
     border-bottom: 3px solid #1cd05d;
+    color: white;
 }
 
 section#main {
