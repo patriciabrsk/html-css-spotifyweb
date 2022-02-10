@@ -313,10 +313,6 @@ footer div.icons i:hover {
     color: white;
 }
 
-div.icons .fa-folder {
-    /* margin-left: .7em; */
-}
-
 footer .controller-content {
     justify-content: center;
     flex-direction: column;
@@ -347,6 +343,7 @@ footer .control-buttons i {
 footer .progress-bar-container {
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     width: 100%;
     gap: 1.2em;
 }
@@ -376,7 +373,6 @@ footer .progress-bar:hover .progress {
     position: absolute;
     right: 0;
     padding: 7px;
-    cursor: pointer;
     size: 1em;
     background-color: white;
     border-radius: 50%;
@@ -385,6 +381,7 @@ footer .progress-bar:hover .progress {
 
 footer .features-content {
     align-items: center;
+    cursor: pointer;
     gap: 1em;
 }
 
